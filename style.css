@@ -1,0 +1,134 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    background: url(./imgs/bg.png) no-repeat;
+    background-size: cover;
+}
+#nav {
+    position: relative;
+    width: 1100px;
+    margin: 0 auto;
+    line-height: 60px;
+    height: 60px;
+    background: #bdc3c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#nav img {
+    height: 60px;
+}
+
+#nav_title_nav {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#nav_title_nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#nav_title_nav a:hover {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+#banner {
+    width: 1100px;
+    margin: 0 auto;
+    font-size: 0px;
+}
+h1{
+    text-align: center;
+    line-height: 100px;
+
+    color: #fff;
+}
+#banner img {
+    width: 1100px;
+}
+#lanqiu_people{
+    width: 1100px;
+    background-color: rgba(59, 59, 59, 0.914);
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#lanqiu_people_text{
+    width: 850px;
+    margin: 0 auto;
+}
+#lanqiu_people_text p{
+    line-height: 30px;
+    text-indent: 32px;
+    color: #c1c1c1;
+}
+#lmain_people{
+    width: 1100px;
+    margin: 0 auto;
+font-size: 0px;
+}
+#people{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}#people p{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;   
+    line-height: 50px; 
+}
+#idol1 p{
+    height: 100px;
+    width: 600px;
+    font-size: 8px;
+    color: #ccc;
+    text-align: center;   
+    line-height: 20px; 
+}
+#idol p{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;   
+    line-height: 50px; 
+}#idol img{
+    width: 600px;
+    height: 800px;
+    border-radius: 5%;
+}
+#idol1 img{
+    width: 200px;
+    height: 350px;
+    border-radius: 5%;
+}
+#idol1 img:hover{
+    transform: scale(1.2);
+}
+#people img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+#people img:hover{
+    transform: scale(1.2);
+  }
+#footer{
+    width: 1100px;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
+    background-color: #1e252d;
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+}
